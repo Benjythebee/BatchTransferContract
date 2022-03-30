@@ -1,17 +1,13 @@
-# New Parcel contract
-This repository contains the new contracts
+# Batch transfer contract
+This repository contains the local environment for a contract that allows sending ERC1155 items to multiple addresses.
+It also allows sending an ERC721 to an address (although it is in the user's advantage to just call safeTransferFrom)
 ## Architecture
-- build
-- - ... Compiled output of contracts by Truffle.
 - contracts
-- - parcels.sol // to be audited
+- - batchTransfer.sol // batch transfer contract
 - test
-- - parcels.test.ts // tests for the new parcels contract
+- - BatchTransferContract.test.ts // tests for the batch transfer contract
 - migrations
 - - ... truffle migrations
-- docs
-- - parcels.sol.md // markdown documentation about the `parcels.sol` contract
-- old_parcels.sol // The old parcel contract (useful for reference) (to be ignored by auditors)
 ## Install
 
 1. Clone repo
@@ -27,7 +23,7 @@ Run `truffle compile`
 
 ## Test on truffle develop
 
-run `truffle develop` follow by `test`
+run `truffle develop` followed by `migrate` and `test`
 
 ## Test on local Network
 
