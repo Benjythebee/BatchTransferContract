@@ -29,6 +29,7 @@ run `truffle develop` followed by `migrate` and `test`
 
 ![image](https://user-images.githubusercontent.com/38708022/160931506-957b4b7c-725d-41f0-b63b-0ddd63e29abb.png)
 
+Rinkeby contract: https://rinkeby.etherscan.io/address/0x3e3d923898bf5bbB0CB3Bd1809Dd10165918c990
 
 ## Test on local Network
 
