@@ -31,7 +31,7 @@ run `truffle develop` followed by `migrate` and `test`
 
 Rinkeby contract: https://rinkeby.etherscan.io/address/0x3e3d923898bf5bbB0CB3Bd1809Dd10165918c990
 Polygon contract: https://polygonscan.com/address/0x0c14093400f5de3de7326a9a7f49dcc53d6a9d0b
-
+Ethereum contract: https://etherscan.io/address/0x9be54b221c44e8665c88af8bb1a99189a1f0e80a
 ## Test on local Network
 
 Edit your local network in truffle-config.js under 'development'.
