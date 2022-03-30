@@ -25,6 +25,9 @@ Run `truffle compile`
 
 run `truffle develop` followed by `migrate` and `test`
 
+![image](https://user-images.githubusercontent.com/38708022/160931506-957b4b7c-725d-41f0-b63b-0ddd63e29abb.png)
+
+
 ## Test on local Network
 
 Edit your local network in truffle-config.js under 'development'.
