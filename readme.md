@@ -4,6 +4,8 @@ It also allows sending an ERC721 to an address (although it is in the user's adv
 ## Architecture
 - contracts
 - - batchTransfer.sol // batch transfer contract
+- - multiToken.sol // an example erc1155 contract
+- - token.sol  // an example erc721 contract
 - test
 - - BatchTransferContract.test.ts // tests for the batch transfer contract
 - migrations
